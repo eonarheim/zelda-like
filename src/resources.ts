@@ -9,5 +9,5 @@ import TiledMap from '../tiled/first-level.tmx';
 export const Resources: {[key: string]: Loadable<any> } = {
     HeroSpriteSheetPng: new ImageSource(HeroSpriteSheetFile, false, ImageFiltering.Pixel),
     TileSetSpriteSheetPng: new ImageSource(TileSetFile, false, ImageFiltering.Pixel),
-    // TiledMap: new TiledMapResource(TiledMap)
+    TiledMap: new TiledMapResource(TiledMap)
 }

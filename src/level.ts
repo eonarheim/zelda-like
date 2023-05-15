@@ -11,8 +11,8 @@ export class Level extends Scene {
     }
 
     onInitialize(engine: Engine): void {
-        // const tiledMap = Resources.TiledMap as TiledMapResource
-        // tiledMap.addTiledMapToScene(engine.currentScene);
+        const tiledMap = Resources.TiledMap as TiledMapResource
+        tiledMap.addTiledMapToScene(engine.currentScene);
 
         const player = new Player(vec(16, 16));
         this.add(player);
