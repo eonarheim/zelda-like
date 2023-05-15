@@ -1,9 +1,15 @@
 {
   "scripts": {
-    "start": "parcel serve index.html"
+    "start": "parcel serve index.html",
+    "copy": "copy tiled/* dist/"
   },
   "devDependencies": {
     "parcel": "2.8.3",
     "typescript": "5.0.4"
+  },
+  "dependencies": {
+    "@excaliburjs/plugin-tiled": "0.27.0",
+    "buffer": "6.0.3",
+    "excalibur": "0.28.0-alpha.663"
   }
 }
